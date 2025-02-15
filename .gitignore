@@ -1,0 +1,48 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+myven/
+
+# IDE files
+.vscode/
+.idea/
+
+# Alembic migration folder (if using Alembic)
+alembic/
+
+# Log files
+*.log
+
+# .env files (for environment variables, do not commit these!)
+.env
+
+# Coverage directory used by tools like coverage.py
+.coverage
+
+# pyre type checker
+.pyre/
+
+# Python distribution
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# FastAPI's static files folder
+static/
+
+# Temporary files
+tmp/
+
+# Exclude all .pyc files in any directory
+**/*.pyc
+
+# Exclude cpython.pyc files in directories (based on your project structure)
+__pycache__/
+*.cpython-*.pyc
